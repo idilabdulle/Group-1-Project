@@ -6,7 +6,14 @@
 
 ## Setup Instructions 
 
-## Dependencies/requirements list 
+## Dependencies/requirements list
+Pandas
+Numpy
+MalPlotLib
+Seaborn
+Geopandas
+os
+LB_shp Folder
 
 ## How to execute the code
 
