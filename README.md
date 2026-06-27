@@ -6,7 +6,7 @@ This project investigates crime, deprivation and wellness data across England - 
 
 We utilise a range of official statistics published by the UK Government for the year of 2025; this data source selection was an active decision, as employing a trusted source provides a level of assurance to the data and subsequent results and conclusions. The latest statistical release of the Index of Multiple deprivation (IMD) for England was on the 30th October 2025, hence the decision to utilise data from 2025. 
 
-IMD rankings are only released by the UK Government every four to six years. This project has additional real-world benefit, as our machine learning implementation (to predict more recent/future IMD rankings) will provide valuable predicitions and insights in the interim between IMD publications.. These predictions would support a range of individuals and groups, such as policymakers, disaster management professionals, resilience planners and researchers, in fields such as health and human geography.
+IMD rankings are only released by the UK Government every four to six years. This project has additional real-world benefit, as our machine learning implementation (to predict more recent/future IMD rankings) will provide valuable predicitions and insights in the interim between IMD publications. These predictions would support a range of individuals and groups, such as policymakers, disaster management professionals, resilience planners and researchers, in fields such as health and human geography.
 
 This project answers the question: ''?
 
