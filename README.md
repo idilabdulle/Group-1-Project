@@ -1,7 +1,7 @@
 # Group 1 Project
 
 ## Project Description
-
+What question does this answer?
 
 ## Setup Instructions 
 
@@ -9,12 +9,12 @@ Please ensure that you have Python installed prior to project setup. Additionall
 
  - Use your terminal to navigate to the folder that you would like to clone the repository into: use `cd` followed by your folder name or path
  - Clone the GitHub 'Group-1-Project' repository: copy the repository URL by clicking the green '<> Code' button and then clicking the HTTPS copy button, in your terminal use the command `git clone` and paste the URL
- - Install all dependencies: use the command `pip install -r requirements.txt`
+ - Install all dependencies: in your terminal use the command `pip install -r requirements.txt`
 
 Using Jupyter Notebook in your browser:
  -  Navigate to your local repository: use `cd` and your folder name or path
  -  Initiate Jupyter Notebook: use the command `jupyter notebook` in your terminal
- -  Use Jupyter Notebook in your browser: copy the URL found directly underneath 'To access the server, open this file in a browser:', paste this URL in the browser of your choice
+ -  Use Jupyter Notebook in your browser: copy the URL found directly underneath 'To access the server, open this file in a browser:', paste this URL into the browser of your choice
 
 ## Requirements list 
 
@@ -31,9 +31,11 @@ Please utilise the requirement.txt file, to install all required python packages
 
 ## How to execute the code
 
-Please now find the Jupyter Notebook file called 'group_1_notebook.ipynb', this is the main notebook for this project. To run this file, please open this in your browser by following the instructions above, or open this in an IDE of your choice, as you would open any other file. Please run each code cell individually and in sequential order (from top to bottom). The cells of this notebook are a mixture of code cells and markdown cells, you do not need to run the markdown cells - these are solely for your reference and information. Please ensure that you have completed all of the set up steps above before executing the code. If you have not, for example, installed all required Python packages, then the code will not run.  
+Please now find the Jupyter Notebook file called 'group_1_notebook.ipynb', this is the main notebook for this project. This file can be run in your IDE or browser. Please see the instructions above for guidance on how to run Jupyter Notebook files in your browser. 
 
-Individual archived Python and Jupyter Notebook files can be found in the 'archived_materials', however these are solely for archival purposes and not for active use. Please do not run these scripts. 
+Please run each code cell individually and in sequential order (from top to bottom). The cells of this notebook are a mixture of code cells and markdown cells - you do not need to run the markdown cells, these are solely for your reference and information. Please ensure that you have completed all setup instructions, found above, before executing the code. If you have not, for example, installed all of the required Python packages, then the code will not run.  
+
+Individual archived Python and Jupyter Notebook files can be found in the 'archived_materials' folder, however these are solely for archival purposes and not for active use. Please do not run these scripts.
 
 # Data Sources
 
