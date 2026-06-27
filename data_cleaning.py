@@ -191,7 +191,7 @@ def clean_measure(raw_file: Path, config: dict) -> pd.DataFrame:
 
     # Convert numeric-looking columns to numbers. Non-numeric values such as "NA"
     # are kept as text so nothing is silently lost. The ONS workbook uses "[u]"
-    # for low-quality / unavailable values, but this project workbook used "NA".
+    # for low-quality/unavailable values, but this project workbook used "NA".
 
     for column in df.columns:
         if column != "Region":
