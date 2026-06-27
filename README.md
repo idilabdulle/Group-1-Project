@@ -69,7 +69,7 @@ Five datasets were utilised for this project, these are also detailed in the Gro
 [Mid-2024_Estimates_population.xlsx](clean_materials\extra_materials\Mid-2024_Estimates_population.xlsx)
 
 # Extra Info
-All members original code are in the [archived_code](archived_code) folder where you can see line by line the different notebooks / scripts that team members used throughout the process. These have all been condensed into the [group_1_notebook.ipynb](group_1_notebook.ipynb) for clarity and simplicity.
+All members original code are in the [archived_materials](archived_materials) folder where you can see line by line the different notebooks / scripts that team members used throughout the process. These have all been condensed into the [group_1_notebook.ipynb](group_1_notebook.ipynb) for clarity and simplicity.
 
 
 ## Team member contributions 
