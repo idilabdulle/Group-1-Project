@@ -1,11 +1,7 @@
 """
 Create the cleaned Wellness_Data workbook from the raw ONS workbook.
-
-Input:
-    ukmeasuresofnationalwellbeingfeb20251.xlsx
-
-Output:
-    Wellness_Data.xlsx
+Input: ukmeasuresofnationalwellbeingfeb20251.xlsx
+Output: Wellness_Data.xlsx
 
 This script extracts the regional tables used in the project, keeps only the
 columns needed for analysis, renames them to clear Python-friendly names, and
@@ -18,8 +14,7 @@ import pandas as pd
 RAW_FILE = Path("ukmeasuresofnationalwellbeingfeb20251.xlsx")
 OUTPUT_FILE = Path("Wellness_Data.xlsx")
 
-# Each entry says:
-# output sheet name, raw ONS sheet name, first data row in Excel, number of rows,
+# Each entry has output sheet name, raw ONS sheet name, first data row in Excel, number of rows,
 # and the raw Excel columns to keep.
 
 SHEETS_TO_CLEAN = [
