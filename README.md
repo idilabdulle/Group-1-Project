@@ -1,7 +1,14 @@
 # Group 1 Project
 
 ## Project Description
-What question does this answer?
+
+This project investigates crime, deprivation and wellness data across England - seeking to gain a better understanding of the deprivation and societal issues experienced across the country. 
+
+We utilise a range of official statistics published by the UK Government for the year of 2025; this data souce selection was an active decision, as employing a trusted source provides a level of assurance to the data and subsequent results and conclusions. The latest statistical release of the Index of Multiple deprivation (IMD) for England was on the 30th October 2025, hence the decision to utilise data from 2025. **more here** 
+
+IMD rankings are only released by the UK Government every four to six years. This project has additional real-world benefit, as our machine learning implementation (to predict more recent/future IMD rankings) will provide valuable predicitions and insights in the interim between IMD publications.. These predictions would support a range of individuals and groups, such as policymakers, disaster management professionals, resilience planners and researchers, in fields such as health and human geography.
+
+This project answers the question: ''?
 
 ## Setup Instructions 
 
@@ -33,7 +40,7 @@ Please utilise the requirement.txt file, to install all required python packages
 
 Please now find the Jupyter Notebook file called 'group_1_notebook.ipynb', this is the main notebook for this project. This file can be run in your IDE or browser. Please see the instructions above for guidance on how to run Jupyter Notebook files in your browser. 
 
-Please run each code cell individually and in sequential order (from top to bottom). The cells of this notebook are a mixture of code cells and markdown cells - you do not need to run the markdown cells, these are solely for your reference and information. Please ensure that you have completed all setup instructions, found above, before executing the code. If you have not, for example, installed all of the required Python packages, then the code will not run.  
+Please run each code cell individually and in sequential order (from top to bottom). The cells of this notebook are a mixture of code cells and markdown cells - you do not need to run the markdown cells, these are solely for your reference and information. Please ensure that you have completed all setup instructions, found above, before executing the code. If you have not, for example, installed all of the required Python packages, the code will not run.  
 
 Individual archived Python and Jupyter Notebook files can be found in the 'archived_materials' folder, however these are solely for archival purposes and not for active use. Please do not run these scripts.
 
