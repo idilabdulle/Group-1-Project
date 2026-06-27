@@ -156,4 +156,4 @@ individual_ITL2 = updated_df.explode("ITL2 region")
 
 regional_summary = individual_ITL2.groupby("ITL2 region").agg( # Now I will find the average IMD score per ITL2 region
     total_offences = ("Number of Offences", "sum"))
-regional_summary.to_csv("machine_learning_test.csv")
+regional_summary.to_csv("machine_learning\machine_learning_test.csv")
