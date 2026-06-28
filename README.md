@@ -2,15 +2,13 @@
 
 ## Project Description
 
-<<<<<<< HEAD
 This project investigates crime, deprivation and wellness data across England - seeking to gain a better understanding of the deprivation and societal issues experienced across the country. 
 
 We utilise a range of official statistics published by the UK Government for the year of 2025; this data source selection was an active decision, as employing a trusted source provides a level of assurance to the data and subsequent results and conclusions. The latest statistical release of the Index of Multiple deprivation (IMD) for England was on the 30th October 2025, hence the decision to utilise data from 2025. 
 
 IMD rankings are only released by the UK Government every four to six years. This project has additional real-world benefit, as our machine learning implementation (to predict more recent/future IMD rankings) will provide valuable predicitions and insights in the interim between IMD publications. These predictions would support a range of individuals and groups, such as policymakers, disaster management professionals, resilience planners and researchers, in fields such as health and human geography.
 
-This project answers the question: ''?
-=======
+## Project solution
 The purpose of our project is to understand the relationship between crime in English regions and their index of multiple deprivation. Our hypothesis is that areas with higher levels of deprivation (the closer to 1 they are ranked the more deprived they are) are more likely to experience higher levels of crime.
 
 Whilst the primary focus of this project was the relationship between crime and deprivation, we also explored selected ONS wellbeing indicators to investigate whether similar regional patterns were observed beyond the IMD framework. This provided additional context for interpreting regional differences in recorded crime and allowed comparisons between deprivation and broader measures of wellbeing.
@@ -56,6 +54,8 @@ Please run each code cell individually and in sequential order (from top to bott
 Also please find the [clean_2026_data.py](machine_learning\clean_2026_data.py) file needs to be run to predict the machine learning model.
 
 Individual archived Python and Jupyter Notebook files can be found in the 'archived_materials' folder, however these are solely for archival purposes and not for active use. Please do not run these scripts.
+
+If you want to skip straight to the visuals, you can find them all here [Graphs](Graphs)
 
 # Data Sources
 
