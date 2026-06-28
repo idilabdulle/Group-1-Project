@@ -2,6 +2,7 @@
 
 ## Project Description
 
+<<<<<<< HEAD
 This project investigates crime, deprivation and wellness data across England - seeking to gain a better understanding of the deprivation and societal issues experienced across the country. 
 
 We utilise a range of official statistics published by the UK Government for the year of 2025; this data source selection was an active decision, as employing a trusted source provides a level of assurance to the data and subsequent results and conclusions. The latest statistical release of the Index of Multiple deprivation (IMD) for England was on the 30th October 2025, hence the decision to utilise data from 2025. 
@@ -9,6 +10,13 @@ We utilise a range of official statistics published by the UK Government for the
 IMD rankings are only released by the UK Government every four to six years. This project has additional real-world benefit, as our machine learning implementation (to predict more recent/future IMD rankings) will provide valuable predicitions and insights in the interim between IMD publications. These predictions would support a range of individuals and groups, such as policymakers, disaster management professionals, resilience planners and researchers, in fields such as health and human geography.
 
 This project answers the question: ''?
+=======
+The purpose of our project is to understand the relationship between crime in English regions and their index of multiple deprivation. Our hypothesis is that areas with higher levels of deprivation (the closer to 1 they are ranked the more deprived they are) are more likely to experience higher levels of crime.
+
+The IMD data comes out every four - five years so by completing our analysis and then building a machine learning model which predicts the IMD score for an ITL2 region, based on the level of crime it has experienced that year we aim to provide annual estimates for local (ITL2 regions) areas based on our model.
+
+This matters for both the police and local authorities and can help with future planning for care by local authorities.
+>>>>>>> f3ede0cc22147080a0e61c7e47333b88b8338792
 
 ## Setup Instructions 
 
@@ -25,7 +33,7 @@ Using Jupyter Notebook in your browser:
 
 ## Requirements list 
 
-Please utilise the requirement.txt file, to install all required python packages. This can be done by using the following command `pip install -r requirements.txt`. The packages required for this project are also listed below, for ease of reference. 
+Please utilise the [requirement.txt](requirement.txt]) file, to install all required python packages. This can be done by using the following command `pip install -r requirements.txt`. The packages required for this project are also listed below, for ease of reference. 
 
 **Requirements:**
  - numpy
@@ -35,6 +43,8 @@ Please utilise the requirement.txt file, to install all required python packages
  - openpyxl
  - geopandas
  - scikit-learn
+ - os
+ - LB_shp Folder
 
 ## How to execute the code
 
@@ -49,24 +59,30 @@ Individual archived Python and Jupyter Notebook files can be found in the 'archi
 Five datasets were utilised for this project, these are also detailed in the Group Project Report. 
 
 > **Crime dataset**
->  - The ‘Police recorded crime Police Force Area Open Data tables, from year ending March 2013 to year ending December 2025’ dataset was published by the Home Office and accessed on the 8th June 2026, using the link ‘https://www.gov.uk/government/statistical-data-sets/police-recorded-crime-and-outcomes-open-data-tables’.
->  - The original Excel file is called 'old_historical_crime_data.xlsx' and can be found in the 'old_data' folder. The cleaned csv file is called 'CLEANED-regional_forces_crime_data_2024-2025.csv', and can be found in the main repository.
+>  - The ‘Police recorded crime Police Force Area Open Data tables, from year ending March 2013 to year ending December 2025’ dataset was published by the Home Office and accessed on the 8th June 2026, using the link ‘https://www.gov.uk/government/statistical-data-sets/police-recorded-crime-and-outcomes-open-data-tables’. 
+>  - The original Excel file is called [old_historical_crime_data.xlsx](old_data\old_historical_crime_data.xlsx) and can be found in the 'old_data' folder. The cleaned csv file with regional data is called [CLEANED-regional_forces_crime_data_2024-2025.csv](clean_materials\CLEANED-regional_forces_crime_data_2024-2025.csv), and can be found in the clean materials folder.
 
 > **Index of Multiple Deprivation (IMD) dataset**
 >  - The ‘English Indices of Deprivation 2025 (IoD25) – Index of Multiple Deprivation’ dataset was published by the Ministry of Housing, Communities & Local Government (MHCLG) and accessed on 9th June 2026, using the link 'https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025' on 9th June 2026.
->  - The original Excel file is called 'old_2025_index_of_multiple_deprivation.xlsx' and can be found in the 'old_data' folder. The cleaned csv file is called 'clean_index_of_multiple_deprivation.csv' and can be found in the main repository.
+>  - The original Excel file is called [old_2025_index_of_multiple_deprivation.xlsx](old_data\old_2025_index_of_multiple_deprivation.xlsx) and can be found in the 'old_data' folder. The cleaned csv file is called [][clean_index_of_multiple_deprivation.csv](clean_materials\clean_index_of_multiple_deprivation.csv) and can be found in the clean materials folder.
 
 > **Wellness dataset**
 >  - The ‘UK Measures of National Well-being: February 2025’ dataset was published by the Office for National Statistics (ONS) and accessed on the 8th June 2026, using the link ‘https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/datasets/ukmeasuresofnationalwellbeing’.
->  - The original Excel file is called 'wellbeing_data.xlsx' and can be found in the 'old_data' folder. The cleaned Excel file is called 'Wellness_Data.xlsx' and can be found in the '_' folder.
+>  - The original Excel file is called [ukmeasuresofnationalwellbeingfeb20251.xlsx](old_data\ukmeasuresofnationalwellbeingfeb20251.xlsx) and can be found in the 'old_data' folder. The cleaned Excel file is called [CLEANED-Wellness_Data.xlsx](clean_materials\CLEANED-Wellness_Data.xlsx) and can be found in the clean materials folder.
 
 > **Local Authority District Lookup dataset**
 >  - The 'Local Authority District (December 2024) to LAU1 to ITL3 to ITL2 to ITL1 (January 2025) Lookup in the UK' dataset was published by the ONS and was accessed on 9th June 2026, using the link 'https://www.data.gov.uk/dataset/2b47adcc-62b6-4dd3-a6cb-271b3035e9fd/local-authority-district-december-2024-to-lau1-to-itl3-to-itl2-to-itl1-january-2025-lookup-in-t'.
->  - The csv file is called 'LAD_2024_to_ITL_2025.csv' and can be found in the 'old_data' folder.
+>  -  The csv file is called [LAD_2024_to_ITL_2025.csv](clean_materials\extra_materials\LAD_2024_to_ITL_2025.csv) and can be found in the 'extra_materials', within the 'clean_materials' folder.
 
 > **Population Estimates dataset**
 >  - The ‘Mid-Year Population Estimates, England and Wales, June 2024’ dataset was accessed on the 21st June 2026, using the link ’https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/estimatesofthepopulationforenglandandwales’.
->  - The csv file is called 'LAD_2024_to_ITL_2025.csv' and can be found in the '_' folder.
+>  - The csv file is called 
+[Mid-2024 Estimates of the population for England and Wales.xlsx](clean_materials\extra_materials\Mid-2024 Estimates of the population for England and Wales.xlsx) and can be found in the 'extra_materials', within the 'clean_materials' folder.
+[Mid-2024_Estimates_population.xlsx](clean_materials\extra_materials\Mid-2024_Estimates_population.xlsx)
+
+# Extra Info
+All members original code are in the [archived_materials](archived_materials) folder where you can see line by line the different notebooks / scripts that team members used throughout the process. These have all been condensed into the [group_1_notebook.ipynb](group_1_notebook.ipynb) for clarity and simplicity.
+
 
 ## Team member contributions 
 Team members:
@@ -77,7 +93,7 @@ Team members:
  - Data Loading (IMD), Data Cleaning and Preprocessing (IMD), Data Visualisations (North, Midlands & South), Machine Learning Implementation, README Write Up, Methods Section of Project Report
 
  - **Idil Abdulle**
- - Exploratory Data Analysis, Data Visualisations (South of England), Project Presentation Creation
+ - Exploratory Data Analysis, Data Visualisations (South of England), Project Presentation
 
  - **Kelly O’Keefe**
  - Exploratory Data Analysis, Data Visualisations (London), Project Report Write Up
@@ -86,7 +102,6 @@ Team members:
  - Data Loading (wellness), Data Cleaning (wellness), Data Visualisations (UK wide), Project Presentation
 
  - **Maeve Finneran**
- - Intro/background Project Report
+ - Intro/background Project Report support
 
  - **Hong Tu**
- - Data Visualisation (heatmap)
