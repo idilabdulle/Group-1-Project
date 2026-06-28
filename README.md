@@ -55,6 +55,8 @@ Also please find the [clean_2026_data.py](machine_learning\clean_2026_data.py) f
 
 Individual archived Python and Jupyter Notebook files can be found in the 'archived_materials' folder, however these are solely for archival purposes and not for active use. Please do not run these scripts.
 
+If you want to skip straight to the visuals, you can find them all here [Graphs](Graphs)
+
 # Data Sources
 
 Five datasets were utilised for this project, these are also detailed in the Group Project Report. 
