@@ -1,34 +1,37 @@
 ITL2,total_offences,avg_imd_by_ITL2,avg_imd_rank_by_ITL2
-['Bedfordshire and Hertfordshire'],134350,,
-"['Berkshire, Buckinghamshire and Oxfordshire']",172209,,
-['Cambridgeshire and Peterborough'],67710,,
-['Cheshire'],78319,,
-['Cumbria'],37033,,
-['Derbyshire and Nottinghamshire'],182667,,
-"['Devon', 'Cornwall and Isles of Scilly']",121356,,
-['East Yorkshire and Northern Lincolnshire'],93719,,
-['Essex'],144423,,
-['Gloucestershire and Wiltshire'],86098,,
-['Greater Manchester'],318679,,
-['Hampshire and Isle of Wight'],154879,,
-"['Herefordshire, Worcestershire and Warwickshire']",39544,,
-"['Inner London - West', 'Inner London - East', 'Outer London - East and North East', 'Outer London - South', 'Outer London - West and North West']",943924,,
-['Inner London - West'],9179,,
-['Kent'],162059,,
-['Lancashire'],129008,,
-"['Leicestershire, Rutland and Northamptonshire']",154482,,
-['Lincolnshire'],54898,,
-['Merseyside'],135000,,
-['Norfolk'],59533,,
-"['North Somerset, Somerset and Dorset']",51100,,
-['North Yorkshire'],45020,,
-"['Northumberland, Durham and Tyne & Wear']",197819,,
-"['Shropshire and Staffordshire', 'Herefordshire, Worcestershire and Warwickshire']",80845,,
-['Shropshire and Staffordshire'],86300,,
-['South Yorkshire'],149368,,
-['Suffolk'],44496,,
-"['Surrey, East and West Sussex']",209001,,
-['Tees Valley'],71425,,
-['West Midlands'],308491,,
-['West Yorkshire'],275196,,
-"['West of England', 'North Somerset, Somerset and Dorset']",168349,,
+Bedfordshire and Hertfordshire,134350,6.610619469026549,20739.55221238938
+"Berkshire, Buckinghamshire and Oxfordshire",172209,7.2868686868686865,22988.432996632997
+Cambridgeshire and Peterborough,67710,6.432170542635659,20027.49031007752
+Cheshire,78319,6.709030100334449,21037.551839464883
+Cornwall and Isles of Scilly,121356,4.72700296735905,14240.79525222552
+Cumbria,37033,5.344827586206897,16321.764890282131
+Derbyshire and Nottinghamshire,182667,5.416479400749064,16589.697378277153
+Devon,121356,5.432098765432099,16636.33058984911
+East Yorkshire and Northern Lincolnshire,93719,5.096446700507614,15384.150592216582
+Essex,144423,5.981098109810981,18506.575157515752
+Gloucestershire and Wiltshire,86098,6.7214285714285715,21101.02857142857
+Greater Manchester,318679,4.490011750881316,13461.296709753231
+Hampshire and Isle of Wight,154879,6.466287571080422,20188.57270511779
+"Herefordshire, Worcestershire and Warwickshire",120389,6.269822485207101,19493.21775147929
+Inner London - East,943924,3.829885057471264,11228.95938697318
+Inner London - West,953103,5.502269288956127,16841.357034795765
+Kent,162059,5.3956639566395665,16487.571815718158
+Lancashire,129008,4.852910052910053,14586.057142857142
+"Leicestershire, Rutland and Northamptonshire",154482,6.007428040854225,18635.540389972146
+Lincolnshire,54898,5.206896551724138,15888.036781609195
+Merseyside,135000,4.265204386839482,12508.533399800599
+Norfolk,59533,5.300724637681159,16222.690217391304
+"North Somerset, Somerset and Dorset",219449,6.056382978723405,18767.53085106383
+North Yorkshire,45020,6.762,21081.42
+"Northumberland, Durham and Tyne & Wear",197819,4.47175815433572,13375.35799522673
+Outer London - East and North East,943924,5.017707362534948,15258.014911463186
+Outer London - South,943924,6.63659793814433,20764.436855670105
+Outer London - West and North West,943924,5.104325699745547,15592.934690415606
+Shropshire and Staffordshire,167145,5.605940594059406,17251.5099009901
+South Yorkshire,149368,4.420930232558139,13145.6
+Suffolk,44496,5.79064587973274,17832.58574610245
+"Surrey, East and West Sussex",209001,6.878718535469107,21613.419908466818
+Tees Valley,71425,4.425882352941176,13001.430588235295
+West Midlands,308491,3.969749854566609,11697.638743455498
+West Yorkshire,275196,4.661680911680912,14013.455840455841
+West of England,168349,6.458110516934046,20216.78966131907

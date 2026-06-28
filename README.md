@@ -4,9 +4,11 @@
 
 The purpose of our project is to understand the relationship between crime in English regions and their index of multiple deprivation. Our hypothesis is that areas with higher levels of deprivation (the closer to 1 they are ranked the more deprived they are) are more likely to experience higher levels of crime.
 
+Whilst the primary focus of this project was the relationship between crime and deprivation, we also explored selected ONS wellbeing indicators to investigate whether similar regional patterns were observed beyond the IMD framework. This provided additional context for interpreting regional differences in recorded crime and allowed comparisons between deprivation and broader measures of wellbeing.
+
 The IMD data comes out every four - five years so by completing our analysis and then building a machine learning model which predicts the IMD score for an ITL2 region, based on the level of crime it has experienced that year we aim to provide annual estimates for local (ITL2 regions) areas based on our model.
 
-This matters for both the police and local authorities and can help with future planning for care by local authorities.
+This matters for both the police and local authorities and can help with future planning for care by local authorities. Additionally, the broader wellness data helps to give another dimension of detail which can help to inform the level of crime and impact on deprivation within an area. This can help local authorities ensure both enforcement and medical help are provided.
 
 ## Setup Instructions 
 
@@ -38,7 +40,9 @@ Please utilise the [requirement.txt](requirement.txt]) file, to install all requ
 
 ## How to execute the code
 
-Please now find the Jupyter Notebook file called 'group_1_notebook.ipynb', this is the main notebook for this project. To run this file, please open this in your browser by following the instructions above, or open this in an IDE of your choice, as you would open any other file. Please run each code cell individually and in sequential order (from top to bottom). The cells of this notebook are a mixture of code cells and markdown cells, you do not need to run the markdown cells - these are solely for your reference and information. Please ensure that you have completed all of the set up steps above before executing the code. If you have not, for example, installed all required Python packages, then the code will not run.  
+Please now find the Jupyter Notebook file called 'group_1_notebook.ipynb', this is the main notebook for this project. To run this file, please open this in your browser by following the instructions above, or open this in an IDE of your choice, as you would open any other file. Please run each code cell individually and in sequential order (from top to bottom). The cells of this notebook are a mixture of code cells and markdown cells, you do not need to run the markdown cells - these are solely for your reference and information. Please ensure that you have completed all of the set up steps above before executing the code. If you have not, for example, installed all required Python packages, then the code will not run.
+
+Also please find the [clean_2026_data.py](machine_learning\clean_2026_data.py) file needs to be run to predict the machine learning model.
 
 Individual archived Python and Jupyter Notebook files can be found in the 'archived_materials', however these are solely for archival purposes and not for active use. Please do not run these scripts. 
 
@@ -65,8 +69,7 @@ Five datasets were utilised for this project, these are also detailed in the Gro
 > **Population Estimates dataset**
 >  - The ‘Mid-Year Population Estimates, England and Wales, June 2024’ dataset was accessed on the 21st June 2026, using the link ’https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/estimatesofthepopulationforenglandandwales’.
 >  - The csv file is called 
-[Mid-2024 Estimates of the population for England and Wales.xlsx](clean_materials\extra_materials\Mid-2024 Estimates of the population for England and Wales.xlsx) and can be found in the 'extra_materials', within the 'clean_materials' folder.
-[Mid-2024_Estimates_population.xlsx](clean_materials\extra_materials\Mid-2024_Estimates_population.xlsx)
+[Mid-2024_Estimates_population.xlsx](clean_materials\extra_materials\Mid-2024_Estimates_population.xlsx) and can be found in the 'extra_materials', within the 'clean_materials' folder.
 
 # Extra Info
 All members original code are in the [archived_materials](archived_materials) folder where you can see line by line the different notebooks / scripts that team members used throughout the process. These have all been condensed into the [group_1_notebook.ipynb](group_1_notebook.ipynb) for clarity and simplicity.
@@ -93,4 +96,4 @@ Team members:
  - Intro/background Project Report
 
  - **Hong Tu**
- - Data Visualisation (heatmap)
+ - Review of Report
